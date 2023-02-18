@@ -1,13 +1,13 @@
 body
 {
-    color: rgb(74, 126, 238);
-    background-color: rgb(212, 234, 253);
+    color: #f1d9d9;
+    background-color: #fae1bbc7;
 }
 
 h1
 {
     text-align: center;
-    color: rgb(31, 182, 76);
+    color: #fd4d4d;
     padding: 10px;
 }
 h2
@@ -20,11 +20,12 @@ figcaption
 {
     text-align: center;
     margin-top: 8px;
+    color: #b69090;
 }
 table
 {
     border: 2px solid;
-    border-color: rgb(38, 184, 82);
+    border-color: #fd4d4d;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
@@ -34,20 +35,20 @@ caption
 {
     font-weight: bold;
     font-size: 20px;
-    color: rgb(16, 66, 133);
+    color: rgb(83, 82, 82);
     margin-bottom: 10px;
     text-decoration: underline;
 }
 
 td,th
 {
-    font-size: larger;
-    padding: 10px;
+    font-size:large;
+    padding: 5px;
+    border: 0px solid #ff9292;
 }
 thead
 {
     text-align: center;
-    background-color: rgba(200, 223, 206, 0.938);
 }
 
 .rightTD
@@ -67,11 +68,20 @@ thead
     width: 350px;
 }
 
-.items tr:nth-child(even)
+.items th
 {
-    background-color: #94f591;
+    background-color: #811612;
 }
 
+.items td:nth-child(even)
+{
+    background-color: #7D8CC4;
+}
+
+.items td:nth-child(odd)
+{
+    background-color: #42213D;
+}
 
 img
 {
@@ -80,7 +90,7 @@ img
     margin-right: auto;
     border-style: solid;
     border-width: 2px;
-    border-color:  rgb(38, 184, 82);
+    border-color:  #fd4d4d;
 }
 
 
